@@ -23,7 +23,7 @@ Free of copyright
 
 
 <?php
-include_once '/path_to_your_own_info/mysql.php';//user and password of our Mysql database to the geomap table
+include_once '/path_to_your_mysql_credentials/mysql.php';//user and password of our Mysql database to the geomap table
 $db = new SQLite3('/root/.config/byteball-hub/byteball.sqlite');
 $max_alea=0.025;# in degree, 1/100 deg=1km
 
